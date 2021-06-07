@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "I need help"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, welcome to our platform! How may I be of service to you?",
+        "Hi there! what can I do for you?",
+        "Nice to meet you! I'm Jaden, how can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Quit/Exit", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Good bye! Have a nice day"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which products do you have?",
+        "What services do you provide?",
+        "What do you sell?",
+        "I am looking for",
+        "I wish to buy",
+        "What type of business is your company involved in?"
+      ],
+      "responses": [
+        "We provide automation and software development services",
+        "We have the most talented pool of IT professionals and developers who will provide top-notch technical services and after-sales customer support"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "How can I pay",
+        "What payment methods do you accept?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most credit cards and Paypal"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "May I speak to a staff member?",
+        "Can I speak with your manager?",
+        "I want to talk to",
+        "I would like to know your contact information",
+        "Where can I find your contact details or phone number?",
+        "I want to post a complaint",
+        "I want to speak to a human",
+        "I am interested to know additional details"
+      ],
+      "responses": [
+        "You may reach out to the manager via e-mail: nujoom2007@gmail.com or call via phone: +91 9207405586, +968 79570157",
+        "Our support team has been notified and we will reach out to you shortly."
+      ]
+    },
+    {
+      "tag": "terms",
+      "patterns": [
+        "May I know your Terms and conditions",
+        "I would like to know more about your T&C",
+        "Where can I know about the policies or guidelines adopted by the company?"
+        
+
+      ],
+      "responses": [
+        "Please go through our terms and conditions have been posted on the support section. Thank you!"
+       
+      ]
+    },
+    {
+      "tag": "plans",
+      "patterns": [
+        "May I know  more the detailed specifications of your products/services",
+        "Where can i read/access the technical documentation of your products/services",
+        "Can I see/know the details",
+        "May I know the details",
+        "I want to see your products",
+        "I want to know more about your products and services",
+        "Services and products",
+        "Where can i buy your products"
+      ],
+      "responses": [
+        "Please click on the following link to access our products page. Thank You!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Can I know where you are located",
+        "Where is your company located",
+        "I wish to know more about your organization",
+        "I want/wish to know more about your company",
+        "more details about your company"
+      ],
+      "responses": [
+        "Our company was founded in Kerala, India with the mission to provide exemplary services to our customers, quality satisfaction of work-life balance to our employees and maintain the most professional reputation to advance and compete in the technical industry. To know more please follow the link below our about section. Thank you!"
+      ]
+    }
+  ]
+}
